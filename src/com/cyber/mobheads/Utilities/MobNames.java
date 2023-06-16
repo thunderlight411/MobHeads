@@ -157,6 +157,8 @@ public enum MobNames {
 	Piglin_Brute,
 	Giant,
 	Strider,
+	Sniffer,
+	Camel,
 	;
 
 
@@ -314,6 +316,10 @@ public enum MobNames {
 				return Tadpole;
 			case WARDEN:
 				return Warden;
+			case SNIFFER:
+				return Sniffer;
+			case CAMEL:
+				return Camel;
 
 			case FROG:
 			//	return Frog;
@@ -331,9 +337,7 @@ public enum MobNames {
 
 	private static MobNames getCatName(Cat Cat) {
 
-		if (Cat.getCatType() == null) {
-			return null;
-		}
+
 		switch (Cat.getCatType()) {
 			case ALL_BLACK:
 				return Cat_AllBack;
