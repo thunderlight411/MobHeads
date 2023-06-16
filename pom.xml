@@ -9,7 +9,6 @@
     <version>4.4</version>
 
 
-
     <repositories>
         <repository>
             <id>spigot-repo</id>
@@ -77,8 +76,7 @@
     </build>
 
     <dependencies>
-        <!--Spigot API-->
-        <!--You only need one of the two, don't put both. Spigot is recommended.-->
+        <!-- Spigot API -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
@@ -89,7 +87,14 @@
                     <artifactId>bstats-bukkit</artifactId>
                 </exclusion>
             </exclusions>
+
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bstats</groupId>
+                    <artifactId>bstats-bukkit</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- WorldGuard API -->
         <dependency>

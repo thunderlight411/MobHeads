@@ -9,8 +9,11 @@
         <module name="MobHeads" />
       </profile>
     </annotationProcessing>
+<<<<<<< Updated upstream
     <bytecodeTargetLevel>
       <module name="MobHeads" target="1.8" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> Stashed changes
   </component>
 </project>
