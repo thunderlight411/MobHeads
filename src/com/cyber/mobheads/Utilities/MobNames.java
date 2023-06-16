@@ -96,7 +96,7 @@ public enum MobNames {
 	Wild_Wolf,
 	Tamed_Wolf,
 	Zombie,
-	Zombie_Pigman,
+	zombified_piglin,
 	Zombie_Butcher_Villager,
 	Zombie_Cleric_Villager,
 	Zombie_Farmer_Villager,
@@ -104,7 +104,13 @@ public enum MobNames {
 	Zombie_Nitwit_Villager,
 	Zombie_Smith_Villager,
 	Bee,
-
+	glow_squid,
+	Normal_Goat,
+	Screaming_Goat,
+	Allay,
+	Frog,Frog_Temperate,Frog_Warm,Frog_Cold,
+	Tadpole,
+	Warden,
 	Villager,
 	Villager_Armorer,
 	Villager_Butcher,
@@ -121,6 +127,7 @@ public enum MobNames {
 	Cod,
 	Salmon,
 	Pufferfish,
+	Axolotl_blue,Axolotl_cyan,Axolotl_gold,Axolotl_lucy,Axolotl_wild,
 
 	Wandering_Trader,
 	Pillager,
@@ -151,12 +158,13 @@ public enum MobNames {
 	Giant,
 	Strider,
 	Sniffer,
-	camel;
+	camel,
+	;
 
 
 	public static MobNames getName(Entity entity) {
 		if(entity.getType().name().equals("PIG_ZOMBIE"))
-			return Zombie_Pigman;
+			return zombified_piglin;
 
 		switch (entity.getType()) {
 			case BAT:
@@ -273,9 +281,7 @@ public enum MobNames {
 			case SALMON:
 				return Salmon;
 			case TROPICAL_FISH:
-				return Tropical_Fish;
-			case ARROW:
-				return getFishName(entity);
+				return getFishName((Fish) entity);
 			case WANDERING_TRADER:
 				return Wandering_Trader;
 			case PILLAGER:
@@ -291,7 +297,7 @@ public enum MobNames {
 			case FOX:
 				return getFoxName((Fox) entity);
 			case ZOMBIFIED_PIGLIN:
-				return Zombie_Pigman;
+				return zombified_piglin;
 			case PIGLIN:
 				return Piglin;
 			case PIGLIN_BRUTE:
@@ -329,12 +335,12 @@ public enum MobNames {
 		return null;
 	}
 
-	private static MobNames getCatName(Cat ocelot) {
+	private static MobNames getCatName(Cat Cat) {
 
-		if (ocelot.getCatType() == null) {
+		if (Cat.getCatType() == null) {
 			return null;
 		}
-		switch (ocelot.getCatType()) {
+		switch (Cat.getCatType()) {
 			case ALL_BLACK:
 				return Cat_AllBack;
 			case BRITISH_SHORTHAIR:
@@ -361,12 +367,12 @@ public enum MobNames {
 		return null;
 
 	}
-	private static MobNames getFoxName(Fox ocelot) {
+	private static MobNames getFoxName(Fox Fox) {
 
-		if (ocelot.getFoxType() == null) {
+		if (Fox.getFoxType() == null) {
 			return null;
 		}
-		switch (ocelot.getFoxType()) {
+		switch (Fox.getFoxType()) {
 			case RED:
 				return Fox_Normal;
 			case SNOW:
@@ -374,6 +380,51 @@ public enum MobNames {
 		}
 		return null;
 
+	}
+
+	private static MobNames getAxolotlName(Axolotl Axolotl) {
+
+		if (Axolotl.getVariant() == null){
+			return null;
+		}
+		switch (Axolotl.getVariant()) {
+			case BLUE:
+				return Axolotl_blue;
+			case CYAN:
+				return Axolotl_cyan;
+			case GOLD:
+				return Axolotl_gold;
+			case LUCY:
+				return Axolotl_lucy;
+			case WILD:
+				return Axolotl_wild;
+		}
+		return null;
+	}
+	private static MobNames getGoatType(Goat Goat) {
+
+		if (Goat.isScreaming() == false){
+			return Normal_Goat;
+		}else if(Goat.isScreaming() == true){
+			return Screaming_Goat;
+		}
+		return null;
+	}
+
+	private static MobNames getFrogType(Frog Frog) {
+
+		if (Frog.getVariant() == null){
+			return null;
+		}
+		switch (Frog.getVariant()) {
+			case COLD:
+				return Frog_Cold;
+			case WARM:
+				return Frog_Warm;
+			case TEMPERATE:
+				return Frog_Temperate;
+		}
+		return null;
 	}
 
 	private static MobNames getCatName(Ocelot ocelot) {
@@ -447,22 +498,23 @@ public enum MobNames {
 		}
 		return null;
 	}
-	private static MobNames getLLamaTraderName(TraderLlama llama) {
-		if (llama.getColor() == null) {
+	private static MobNames getLLamaTraderName(TraderLlama traderLlama){
+		if (traderLlama.getColor() == null){
 			return null;
 		}
-		switch (llama.getColor()) {
-			case BROWN:
-				return Brown_Llama_Trader;
-			case CREAMY:
-				return Creamy_Llama_Trader;
+		switch (traderLlama.getColor()){
 			case GRAY:
 				return Gray_Llama_Trader;
+			case BROWN:
+				return Brown_Llama_Trader;
 			case WHITE:
 				return White_Llama_Trader;
+			case CREAMY:
+				return Creamy_Llama_Trader;
 		}
 		return null;
 	}
+
 
 	private static MobNames getParrotName(Parrot parrot) {
 		if (parrot.getVariant() == null) {
@@ -509,11 +561,11 @@ public enum MobNames {
 		return null;
 	}
 
-	private static MobNames getPandaName(Panda rabbit) {
-		if (rabbit.getMainGene() == null) {
+	private static MobNames getPandaName(Panda Panda) {
+		if (Panda.getMainGene() == null) {
 			return null;
 		}
-		switch (rabbit.getMainGene()) {
+		switch (Panda.getMainGene()) {
 			case LAZY:
 				return Panda_Lazy;
 			case WEAK:
@@ -640,11 +692,11 @@ public enum MobNames {
 		}
 	}
 
-	private static MobNames getFishName(Entity entity) {
-		if (entity.getName() == null) {
+	private static MobNames getFishName(Fish Fish) {
+		if (Fish.getName() == null) {
 			return null;
 		}
-		switch (entity.getName()) {
+		switch (Fish.getName()) {
 			case "Raw Cod":
 				return Cod;
 			case "Raw Salmon":

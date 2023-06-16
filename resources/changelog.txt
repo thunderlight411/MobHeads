@@ -4,13 +4,16 @@ v4.4
 
 v4.3
     - Added 1.19 mobs
+
 v4.2
     - Fix Trader_llama
     - Corrected internal consistency
+
 v4.1
     - Added Goat
     - Added Axolotl
     - Renamed Zombie_Pigman to zombified_piglin
+
 V4.0
     - Added Giant
     - Added Piglin Brute

@@ -8,6 +8,7 @@
     <artifactId>MobHeads</artifactId>
     <version>4.4</version>
 
+
     <repositories>
         <repository>
             <id>spigot-repo</id>
@@ -15,13 +16,13 @@
         </repository>
         <repository>
             <id>sk89q-repo</id>
-            <url>http://maven.sk89q.com/repo/</url>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
     </repositories>
 
 
     <build>
-        <finalName>${project.name}</finalName>
+        <finalName>${project.name}_${project.version}</finalName>
         <defaultGoal>install</defaultGoal>
         <!-- Uses the properties in this file for plugin.yml and config.yml -->
         <resources>
@@ -80,6 +81,12 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.20-R0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bstats</groupId>
+                    <artifactId>bstats-bukkit</artifactId>
+                </exclusion>
+            </exclusions>
 
             <scope>provided</scope>
             <exclusions>
