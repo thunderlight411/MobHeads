@@ -157,6 +157,8 @@ public enum MobNames {
 	Piglin_Brute,
 	Giant,
 	Strider,
+	Sniffer,
+	camel,
 	;
 
 
@@ -314,6 +316,10 @@ public enum MobNames {
 				return Tadpole;
 			case WARDEN:
 				return Warden;
+			case SNIFFER:
+				return Sniffer;
+			case CAMEL:
+				return camel;
 
 			case FROG:
 			//	return Frog;
