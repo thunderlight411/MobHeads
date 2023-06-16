@@ -14,8 +14,6 @@ import java.util.Set;
 
 public class ConfigController {
 	private static FileConfiguration CONFIGURATION = Main.getMyConfig();
-
-	/*     */
 	public static String getDisplayNameFromTexture(String texture) {
 		String[] roots = {"ListOfMobs", "ListOfFish"};
 
@@ -311,9 +309,3 @@ public class ConfigController {
 	}
 
 }
-
-
-/* Location:              F:\Minecraft Servers\SpigotLobby\plugins\MobHeads 2.4.jar!\com\cyber\mobheads\Config\ConfigController.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.0.7
- */

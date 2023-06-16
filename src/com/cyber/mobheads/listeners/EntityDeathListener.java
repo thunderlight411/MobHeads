@@ -3,8 +3,6 @@ package com.cyber.mobheads.listeners;
 import com.cyber.mobheads.Config.ConfigController;
 import com.cyber.mobheads.Main;
 import com.cyber.mobheads.Utilities.*;
-import com.cyber.mobheads.advancements.AdvancementsManager;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.*;
@@ -101,7 +99,6 @@ public class EntityDeathListener
 								}
 
 						if(nearest != null) {
-							AdvancementsManager.triggerAdvancement(nearest, mobmeta.getAdvancements());
 							if (mobmeta.isShouldBroadcast()) {
 								String name = mobmeta.getUsedDisplayName();
 								if (name == null) {
@@ -150,8 +147,6 @@ public class EntityDeathListener
 				if (drops.getType() == Material.WITHER_SKELETON_SKULL) {
 					MobNames mobname = MobNames.getName(livingEntity);
 					MobMeta mobmeta = ConfigController.getRandomConfigMobMeta(mobname, false);
-					//TODO: Check if correct: This will show the advancements, but not duplicate head if already exists
-					AdvancementsManager.triggerAdvancement(killer, mobmeta.getAdvancements());
 
 					if (mobmeta.isShouldBroadcast()) {
 						String name = mobmeta.getUsedDisplayName();

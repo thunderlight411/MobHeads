@@ -15,60 +15,60 @@ import org.bukkit.inventory.meta.SkullMeta;
 import java.lang.reflect.Field;
 
 public class SkullBreakListener implements Listener {
-	@EventHandler
-	public void onSkullDrop(ItemSpawnEvent event) {
-		if (event.getEntity().getItemStack().getType() != Material.PLAYER_HEAD) {
-			return;
-		}
+    @EventHandler
+    public void onSkullDrop(ItemSpawnEvent event) {
+        if (event.getEntity().getItemStack().getType() != Material.PLAYER_HEAD) {
+            return;
+        }
 
 
-		SkullMeta meta = (SkullMeta) event.getEntity().getItemStack().getItemMeta();
+        SkullMeta meta = (SkullMeta) event.getEntity().getItemStack().getItemMeta();
 
-		if (meta.hasLocalizedName()) {
-			return;
-		}
-
-
-		GameProfile profile = null;
-		Field profileField = null;
-		try {
-			profileField = meta.getClass().getDeclaredField("profile");
-			profileField.setAccessible(true);
-			profile = (GameProfile) profileField.get(meta);
-		} catch (NoSuchFieldException | IllegalArgumentException | IllegalAccessException e1) {
-			e1.printStackTrace();
-		}
-
-		if (profile == null) {
-			return;
-		}
+        if (meta.hasLocalizedName()) {
+            return;
+        }
 
 
-		PropertyMap map = profile.getProperties();
+        GameProfile profile = null;
+        Field profileField = null;
+        try {
+            profileField = meta.getClass().getDeclaredField("profile");
+            profileField.setAccessible(true);
+            profile = (GameProfile) profileField.get(meta);
+        } catch (NoSuchFieldException | IllegalArgumentException | IllegalAccessException e1) {
+            e1.printStackTrace();
+        }
+
+        if (profile == null) {
+            return;
+        }
 
 
-		String code = null;
-		try {
-			code = ((Property) map.get("textures").toArray()[0]).getValue();
-		} catch (ArrayIndexOutOfBoundsException e) {
-			return;
-		}
+        PropertyMap map = profile.getProperties();
 
 
-		if (code == null) {
-			return;
-		}
+        String code = null;
+        try {
+            code = ((Property) map.get("textures").toArray()[0]).getValue();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            return;
+        }
 
 
-		String displayName = ConfigController.getDisplayNameFromTexture(code);
-
-		if (displayName == null) {
-			return;
-		}
+        if (code == null) {
+            return;
+        }
 
 
-		ItemMeta itemMeta = event.getEntity().getItemStack().getItemMeta();
-		itemMeta.setDisplayName(ChatColor.RESET + displayName);
-		event.getEntity().getItemStack().setItemMeta(itemMeta);
-	}
+        String displayName = ConfigController.getDisplayNameFromTexture(code);
+
+        if (displayName == null) {
+            return;
+        }
+
+
+        ItemMeta itemMeta = event.getEntity().getItemStack().getItemMeta();
+        itemMeta.setDisplayName(ChatColor.RESET + displayName);
+        event.getEntity().getItemStack().setItemMeta(itemMeta);
+    }
 }

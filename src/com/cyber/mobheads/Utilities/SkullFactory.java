@@ -2,11 +2,8 @@
 package com.cyber.mobheads.Utilities;
 
 
-import com.cyber.mobheads.Config.ConfigController;
-import com.cyber.mobheads.advancements.AdvancementsManager;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
@@ -28,9 +25,6 @@ public class SkullFactory{
 			return null;
 		}
 		if (encodedTexture.equalsIgnoreCase("[vanilla]") || randomUUID.equalsIgnoreCase("[vanilla]") || displayName.equalsIgnoreCase("[vanilla]")) {
-			if (owner != null) {
-				AdvancementsManager.triggerAdvancement(owner, mobmeta.getAdvancements());
-			}
 			if (displayName.equalsIgnoreCase("[vanilla]")) {
 				return getVanillaSkull(mobmeta.getMobName());
 			}
@@ -56,9 +50,6 @@ public class SkullFactory{
 		}
 
 		meta.setDisplayName(ChatColor.RESET + displayName);
-		if (owner != null) {
-			AdvancementsManager.triggerAdvancement(owner, mobmeta.getAdvancements());
-		}
 		skull.setItemMeta(meta);
 		return skull;
 	}
@@ -68,7 +59,6 @@ public class SkullFactory{
 		ItemMeta itemMeta = item.getItemMeta();
 		((SkullMeta) itemMeta).setOwner(playername);
 		item.setItemMeta(itemMeta);
-		if (killer != null) AdvancementsManager.triggerAdvancement(killer, ConfigController.getAdvancementsPlayer());
 		return item;
 	}
 
@@ -111,6 +101,8 @@ public class SkullFactory{
 				return "Dragon Head";
 			case Wither_Skeleton:
 				return "Wither Skeleton Head";
+			case Piglin:
+				return "Piglin Head";
 		}
 		return null;
 	}
@@ -126,13 +118,9 @@ public class SkullFactory{
 				return "Dragon Head";
 			case WITHER_SKELETON:
 				return "Wither Skeleton Head";
+			case PIGLIN:
+				return "Piglin Head";
 		}
 		return null;
 	}
 }
-
-
-/* Location:              F:\Minecraft Servers\SpigotLobby\plugins\MobHeads 2.4.jar!\com\cyber\mobheads\Utilities\SkullFactory.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.0.7
- */

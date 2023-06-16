@@ -10,50 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497eea3d-d0e5-476e-ba8d-8182b03037e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mobheads_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_0_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_commandbook_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_intake_intake_4_2_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_squirrelid_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldedit_worldedit_bukkit_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldedit_worldedit_core_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldedit_worldedit_libs_bukkit_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldedit_worldedit_libs_core_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldguard_worldguard_core_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sk89q_worldguard_worldguard_legacy_7_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_schlichtherle_truezip_6_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_16_R0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bstats_bstats_bukkit_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_13_R0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_khelekore_prtree_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__rhino_js_1_7R2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/MobHeads_2_4_jar_src.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobHeads.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MobHeads.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/MobNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/MobNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/Read Me!.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/cat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/end_dimension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/firstmobhead.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/fish.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/horse.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/illusioner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/llama.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/nether_dimension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/ocean_monument.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/panda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/parrot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/player.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/rabbit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/root.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/sheep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/thekillerbunny.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/thelegend27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/watermobs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/wither.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/woodland_mansion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/zombiehorse.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/achievements/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Config/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Config/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/Broadcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/Broadcaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/SkullFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/SkullFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/advancements/AdvancementsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/EntityDeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/EntityDeathListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/FishListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/FishListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/SkullBreakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/SkullBreakListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +60,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.jar!/org/bukkit/entity/EntityType.class" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,98 +67,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="azul-17" />
       </MavenImportingSettings>
     </option>
   </component>
-
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1Oo2Ywiuisjny6pUPi30cDJ3xgj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-  </component>
-
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Minecraft/StandAlone/Plugins",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-
-  }
-}]]></component>
-  <component name="ReaderModeSettings">
-    <option name="enabled" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cyber.mobheads.Utilities" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GitHub\MobHeads\libs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GitHub\MobHeads\achievements\achievements\data\mobheads\advancements" />
-      <recent name="F:\GitHub\MobHeads\achievements\achievements" />
-      <recent name="F:\GitHub\MobHeads\achievements\achievements\data" />
-      <recent name="F:\GitHub\MobHeads\achievements\achievements\l\" />
-      <recent name="F:\GitHub\MobHeads\achievements\achievements\" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cyber.mobheads.Utilities" />
-    </key>
-  </component>
-
-  <component name="RunManager">
-
   <component name="RunManager" selected="JAR Application.StandAlone">
     <configuration name="StandAlone" type="JarApplication">
       <option name="JAR_PATH" value="W:/Spigot/paper-1.20.1.jar" />
       <option name="PROGRAM_PARAMETERS" value="--nogui" />
       <option name="WORKING_DIRECTORY" value="E:\Minecraft\StandAlone" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Mobheads_4.4" />
-        </option>
-      </method>
+      <method v="2" />
     </configuration>
-
-    <configuration name="MobHeads [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="MobHeads [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="#USE_PROJECT_JDK" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
+        <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -181,7 +94,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
-                <option value="package" />
+                <option value="install" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -197,81 +110,20 @@
     </configuration>
     <list>
       <item itemvalue="JAR Application.StandAlone" />
-      <item itemvalue="Maven.MobHeads [clean,package]" />
+      <item itemvalue="Maven.MobHeads [clean,install]" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="497eea3d-d0e5-476e-ba8d-8182b03037e7" name="Default Changelist" comment="" />
-      <created>1564610572624</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1564610572624</updated>
-    </task>
     <servers />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.list" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-
-  <component name="WindowStateProjectService">
-    <state x="765" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1585165744222">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="765" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1585165744222" />
-    <state x="690" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591654155373">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="690" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591654155373" />
-    <state width="1876" height="180" key="GridCell.Tab.0.bottom" timestamp="1593214266403">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1593214266403" />
-    <state width="1876" height="180" key="GridCell.Tab.0.center" timestamp="1593214266403">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="180" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1593214266403" />
-    <state width="1876" height="180" key="GridCell.Tab.0.left" timestamp="1593214266403">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="180" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1593214266403" />
-    <state width="1876" height="180" key="GridCell.Tab.0.right" timestamp="1593214266403">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/MinecraftAccountValidator.java</url>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cyber/mobheads/listeners/EntityDeathListener.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
