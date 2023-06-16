@@ -302,8 +302,6 @@ public enum MobNames {
 				return Zoglin;
 			case HOGLIN:
 				return Hoglin;
-<<<<<<< Updated upstream
-=======
 			case GLOW_SQUID:
 				return glow_squid;
 			case ALLAY:
@@ -327,7 +325,6 @@ public enum MobNames {
 
 			case AXOLOTL:
 				return getAxolotlName((Axolotl) entity);
->>>>>>> Stashed changes
 		}
 		return null;
 	}
