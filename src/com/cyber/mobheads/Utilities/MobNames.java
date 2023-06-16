@@ -150,7 +150,8 @@ public enum MobNames {
 	Piglin_Brute,
 	Giant,
 	Strider,
-	;
+	Sniffer,
+	camel;
 
 
 	public static MobNames getName(Entity entity) {
@@ -301,6 +302,32 @@ public enum MobNames {
 				return Zoglin;
 			case HOGLIN:
 				return Hoglin;
+<<<<<<< Updated upstream
+=======
+			case GLOW_SQUID:
+				return glow_squid;
+			case ALLAY:
+				return Allay;
+			case TADPOLE:
+				return Tadpole;
+			case WARDEN:
+				return Warden;
+			case SNIFFER:
+				return Sniffer;
+			case CAMEL:
+				return camel;
+
+			case FROG:
+			//	return Frog;
+				return getFrogType((Frog) entity);
+
+			case GOAT:
+			//return Normal_Goat;
+				return getGoatType((Goat) entity);
+
+			case AXOLOTL:
+				return getAxolotlName((Axolotl) entity);
+>>>>>>> Stashed changes
 		}
 		return null;
 	}
