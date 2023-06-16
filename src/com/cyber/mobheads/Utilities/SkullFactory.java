@@ -90,6 +90,9 @@ public class SkullFactory{
 			case Wither_Skeleton:
 				mat = Material.WITHER_SKELETON_SKULL;
 				return new ItemStack(mat, 1);
+			case Piglin:
+				mat = Material.PIGLIN_HEAD;
+				return new ItemStack(mat, 1);
 		}
 		return null;
 	}

@@ -158,7 +158,7 @@ public enum MobNames {
 	Giant,
 	Strider,
 	Sniffer,
-	camel,
+	Camel,
 	;
 
 
@@ -319,7 +319,8 @@ public enum MobNames {
 			case SNIFFER:
 				return Sniffer;
 			case CAMEL:
-				return camel;
+				return Camel;
+
 
 			case FROG:
 			//	return Frog;
@@ -337,9 +338,7 @@ public enum MobNames {
 
 	private static MobNames getCatName(Cat Cat) {
 
-		if (Cat.getCatType() == null) {
-			return null;
-		}
+
 		switch (Cat.getCatType()) {
 			case ALL_BLACK:
 				return Cat_AllBack;

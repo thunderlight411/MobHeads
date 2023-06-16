@@ -68,8 +68,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>20</source>
+                    <target>20</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -81,13 +81,6 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.20-R0.1-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.bstats</groupId>
-                    <artifactId>bstats-bukkit</artifactId>
-                </exclusion>
-            </exclusions>
-
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -96,6 +89,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <!-- WorldGuard API -->
         <dependency>
             <groupId>com.sk89q.worldguard</groupId>
@@ -103,6 +97,7 @@
             <version>7.0.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+
         <!-- MCAPI -->
         <dependency>
             <groupId>com.mojang</groupId>
@@ -112,5 +107,5 @@
             <version>1.5.25</version>
         </dependency>
     </dependencies>
-    
+
 </project>

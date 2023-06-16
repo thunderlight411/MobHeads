@@ -46,25 +46,5 @@
       <option name="name" value="spigot-repo" />
       <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots" />
     </remote-repository>
-    <remote-repository>
-      <option name="id" value="bstats" />
-      <option name="name" value="bstats" />
-      <option name="url" value="https://mvnrepository.com/artifact/org.bstats/bstats-bukkit" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="sk89q-repo" />
-      <option name="name" value="sk89q-repo" />
-      <option name="url" value="https://maven.enginehub.org/repo/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="papermc" />
-      <option name="name" value="papermc" />
-      <option name="url" value="https://repo.papermc.io/repository/maven-public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="spigot-repo" />
-      <option name="name" value="spigot-repo" />
-      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots" />
-    </remote-repository>
   </component>
 </project>
