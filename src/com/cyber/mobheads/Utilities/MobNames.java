@@ -321,6 +321,7 @@ public enum MobNames {
 			case CAMEL:
 				return Camel;
 
+
 			case FROG:
 			//	return Frog;
 				return getFrogType((Frog) entity);
