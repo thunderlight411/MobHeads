@@ -6,7 +6,7 @@
 
     <groupId>com.cyber</groupId>
     <artifactId>MobHeads</artifactId>
-    <version>4.4</version>
+    <version>4.4.1</version>
 
 
     <repositories>
@@ -17,6 +17,10 @@
         <repository>
             <id>sk89q-repo</id>
             <url>https://maven.enginehub.org/repo/</url>
+        </repository>
+        <repository>
+            <id>elmakers-repo</id>
+            <url>https://maven.elmakers.com/repository/</url>
         </repository>
     </repositories>
 
@@ -105,6 +109,14 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/authlib-1.5.25.jar</systemPath>
             <version>1.5.25</version>
+        </dependency>
+
+        <!-- bstats -->
+        <dependency>
+            <groupId>org.bstats</groupId>
+            <artifactId>bstats-bukkit</artifactId>
+            <version>1.4</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

@@ -38,7 +38,7 @@ public class SkullFactory{
 		ItemStack skull = new ItemStack(Material.PLAYER_HEAD, 1,(short)3);
 
 		SkullMeta meta = (SkullMeta)skull.getItemMeta();
-		GameProfile profile = new GameProfile(UUID.fromString(randomUUID), null);
+		GameProfile profile = new GameProfile(UUID.fromString(randomUUID), displayName);
 		profile.getProperties().put("textures", new Property("textures", encodedTexture));
 		Field profileField = null;
 		try {

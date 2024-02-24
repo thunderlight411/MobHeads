@@ -10,37 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497eea3d-d0e5-476e-ba8d-8182b03037e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/Read Me!.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/cat.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/end_dimension.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/firstmobhead.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/fish.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/horse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/illusioner.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/llama.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/nether_dimension.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/ocean_monument.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/panda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/parrot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/player.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/rabbit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/sheep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/thekillerbunny.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/thelegend27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/watermobs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/wither.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/woodland_mansion.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/data/mobheads/advancements/zombiehorse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements/achievements/pack.mcmeta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Config/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Config/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/Broadcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/Broadcaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/SkullFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/SkullFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/advancements/AdvancementsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/EntityDeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/EntityDeathListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/FishListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/FishListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/SkullBreakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyber/mobheads/listeners/SkullBreakListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +35,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "thunderlight411"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cf3108f4-f660-47b2-912b-70889d23b5e7" />
+        <option name="url" value="https://github.com/thunderlight411/MobHeads.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.jar!/org/bukkit/entity/EntityType.class" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -73,10 +62,30 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2coJkfxsJFJP6ZPHyDXNMZeRoHq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="JAR Application.StandAlone">
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git/MobHeads&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Maven.MobHeads [clean,install]">
     <configuration name="StandAlone" type="JarApplication">
-      <option name="JAR_PATH" value="W:/Spigot/paper-1.20.1.jar" />
+      <option name="JAR_PATH" value="W:/Spigot/paper-1.20.4.jar" />
       <option name="PROGRAM_PARAMETERS" value="--nogui" />
       <option name="WORKING_DIRECTORY" value="E:\Minecraft\StandAlone" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -88,6 +97,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -101,6 +111,9 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
@@ -113,8 +126,19 @@
       <item itemvalue="Maven.MobHeads [clean,install]" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1708773407205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708773407205</updated>
+    </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove Advancements and Code Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,6 +147,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cyber/mobheads/Utilities/SkullFactory.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
