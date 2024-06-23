@@ -49,7 +49,8 @@ public class SkullFactory{
 			e1.printStackTrace();
 		}
 
-		meta.setDisplayName(ChatColor.RESET + displayName);
+		meta.setDisplayName(displayName);
+	//	meta.setDisplayName(ChatColor.RESET + displayName);
 		skull.setItemMeta(meta);
 		return skull;
 	}

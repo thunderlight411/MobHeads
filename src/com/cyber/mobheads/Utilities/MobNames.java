@@ -159,6 +159,21 @@ public enum MobNames {
 	Strider,
 	Sniffer,
 	Camel,
+	//1.21 Mobs
+	Armadillo,
+	Bogged,
+	Breeze,
+
+	//Wolf selection
+	Ashen_Wolf,
+	Black_Wolf,
+	Chestnut_wolf,
+	Pale_wolf,
+	Rusty_wolf,
+	Snowy_Wolf,
+	Spotted_Wolf,
+	Striped_Wolf,
+	Woods_Wolf,
 	;
 
 
@@ -222,7 +237,7 @@ public enum MobNames {
 				return getLLamaTraderName((TraderLlama) entity);
 			case MAGMA_CUBE:
 				return Magma_Cube;
-			case MUSHROOM_COW:
+			case MOOSHROOM:
 				return getMooshroomName((MushroomCow) entity);
 			case MULE:
 				return Mule;
@@ -246,7 +261,7 @@ public enum MobNames {
 				return Skeleton;
 			case SLIME:
 				return Slime;
-			case SNOWMAN:
+			case SNOW_GOLEM:
 				return Snow_Golem;
 			case SPIDER:
 				return Spider;
@@ -320,7 +335,13 @@ public enum MobNames {
 				return Sniffer;
 			case CAMEL:
 				return Camel;
-
+		//1.21 mobs
+			case ARMADILLO:
+				return Armadillo;
+			case BOGGED:
+				return Bogged;
+			case BREEZE:
+				return Breeze;
 
 			case FROG:
 			//	return Frog;
@@ -707,5 +728,8 @@ public enum MobNames {
 		}
 		return null;
 	}
+
+
+
 }
 

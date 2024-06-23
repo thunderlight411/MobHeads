@@ -32,7 +32,7 @@ public class FishListener implements Listener {
             MobMeta mobmeta = ConfigController.getRandomConfigMobMeta(mobname, true);
 
 
-            int luckOfTheSeaLevel = event.getPlayer().getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LUCK);
+            int luckOfTheSeaLevel = event.getPlayer().getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LUCK_OF_THE_SEA);
             double dropBonus = mobmeta.getDropBonus();
             double dropChance = mobmeta.getDropChance();
 
